@@ -1,0 +1,87 @@
+* { 
+    font-family: sans-serif;
+}
+
+/* HEADER START */
+
+/*header set to flex*/
+header { 
+    display: flex;
+}
+
+/*splits header into 2 sections*/
+.leftHeader { 
+    display: flex;
+    width: 80%;
+    padding-left: 2%;
+}
+
+/*splits header into 2 sections*/
+.rightHeader { 
+    display: flex;
+    width: 20%;
+    margin: auto;
+}
+
+/*Chris Smith - sets color, size*/
+header h2 a{ 
+    text-decoration: none;
+    color: rgb(176, 176, 176);
+    display: inline-flex;
+    font-size: 30px;
+    width: auto;
+    overflow: none;
+    line-height: 50px;
+}
+
+header h2 a:hover { 
+    color: black;
+    box-shadow: 10px;
+}
+
+/*handles small CS circle*/
+.circle2 { 
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    display: inline-flex;
+    margin: auto 5px;
+    background-color: rgb(61, 60, 60);
+  }
+
+  /*handles small CS circle text*/
+  .circle2 p {
+    margin: auto;
+  }
+
+  /*handles aspiring text*/
+ #aspiring { 
+    display: inline-flex;
+    color: rgb(61, 60, 60);
+    font-weight: bold;
+    padding-left: 5px;
+    margin: auto 5px;
+    line-height: 40px;
+    padding-top: 8px;
+}
+
+/*handles navigation links*/
+header nav a{ 
+    text-decoration: none;
+    color: rgb(61,60,60);
+    font-weight: bold;
+}
+
+/*handles navigation list*/
+header nav li { 
+    display: inline-flex;
+    padding-right: 5px;
+    border-right: 1px solid black;
+}
+
+/*HEADER*/
+ 

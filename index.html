@@ -1,65 +1,61 @@
 <html lang="en">
     <head>
         <title>Home</title>
-        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/indexBody.css">
+        <link rel="stylesheet" href="./css/footer.css">
         <script src="./js/mainjs.js"></script>
     </head>
-    <header>   
-        <h1> Chris Smith </h1>
-        
-        <nav class ="menu">
-            <ul>
-                <li><a href = "./index.html"> Home </a></li>
-                <li><a href = "./contact.html"> Contact </a></li>
-                <li><a href = "./work.html"> Work </a></li>
-                <li><a href = "./myPassion.html"> My Passion </a></li>
-            </ul>
-        </nav>
-        <img id="chrisFace" src="./media/face.jpg" alt="Chris's portait">
+    <header> 
+        <div class="leftHeader">
+            <div class="circle2">
+                <p>CS</p>
+            </div> 
+            <h2> <a href = "./index.html"> Chris Smith </a> </h2>
+            <p id="aspiring"> Aspiring java specialist </p>
+        </div>
+        <div class="rightHeader">
+            <nav class ="menu">
+                <ul>
+                    <li><a href = "./cv.html"> CV </a></li>
+                    <li><a href = "./projects.html"> Projects </a></li>
+                    <li><a href = "./mcontact.html"> Contact </a></li>
+                </ul>
+            </nav>
         </div>
     </header>
+
     <body>
         <main> 
-            <h2> About Me </h2>
-
-            <p> Hey there! I'm Chris and i've been developing my HTML, CSS & JavaScript capabilites
-                over the past few months. I started with Codecademy in Aug '22 after following my 
-                passion for game and app development.
-            </p>
-            <p> My working background is primarily management with the last decade spent in multi-site 
-                management. I started in the customer service business in my late teens and never 
-            looked back.</p>
-            <p> I'm a family man with a wife and two childen. In my free time, I'm primarily being a 
-                husband and a dad but when I sneak away for an afternoon... I thoroughly enjoy coding
-                challenges, poker and things that keep my mind active and engaged! 
-            </p>
-            <p> A wise man once told me, never stop learning. If you can make learning your passion, 
-                you'll succeed at anything you set your mind to.
-            </p>
+            <div class="leftMain">
+                <img id="chrisFace" src="./media/face.jpg" alt="Chris's portait">
+            </div>
+            <div class="rightMain">
+                <h1> Hello! </h1>
+                <h2> About Me </h2>
+                <p> A life long learner with an enthusiasm for problem solving. With 
+                    decades of experience leading teams, my passion is to work together
+                    with like minded individuals to achieve sky high results.</p>
+                <div class="circle" id="circle1"> 
+                    <h2> CV </h2>
+                </div>
+                <div class ="circle" id="circle2">
+                    <h2> Projects </h2>
+                </div>
+                <div class="circle" id="circle3">
+                    <h2> Contact </h2>
+                </div>
+            </div>
         </main>
-        <div class="projects"> 
-            <h2> Project Summary </h2>
-            <ol>
-                <li> Random Message Generator </li>
-                <li> More to come... </li>
-            </ol>
-        </div>
-        <div class="skills">
-            <h2> Skills </h2>
-            <img id="skillsImage" src="./media/skills.jpg" alt="skills">
 
-        </div>
     </body>
     <footer>
-        <h2 id="footerName"> Chris Smith </h2>
-        <nav class ="bottomMenu">
-            <ul>
-                <li><a href = "./index.html"> Home </a></li>
-                <li><a href = "./contact.html"> Contact </a></li>
-                <li><a href = "./work.html"> Work </a></li>
-                <li><a href = "./myPassion.html"> My Passion </a></li>
-            </ul>
-        </nav>
+        <ul > 
+            <li> <a href="tel07385674954"> Phone: 07385 674954 </a> </li>
+            <li> <a href="mailto: chrissmith.ej@gmail.com"> Email: Chrissmith.ej@gmail.com</li>
+            <li> <a href="Facebook.com">Follow me </a> </li>
+            <li> Created by Chris Smith 2023 </li>
+        </ul>
     </footer>
 
 </html>

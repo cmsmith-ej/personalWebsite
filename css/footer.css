@@ -1,0 +1,22 @@
+footer { 
+    margin-top: 270px;
+    display: flex;
+}
+
+footer li { 
+    list-style: none;
+    display: inline-flex;
+    justify-content: start;
+    padding: 0px 0px 0px 150px;
+    color: black;
+}
+
+footer li a { 
+    text-decoration: none;
+    color: black;
+}
+
+footer li a:hover { 
+    color: grey;
+    text-decoration: dotted;
+}
